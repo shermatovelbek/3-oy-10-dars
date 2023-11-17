@@ -93,3 +93,30 @@ cursor: pointer;
     margin-left: 207px;
     padding-top:230px;
 }
+.buton button{
+    width: 114px;
+    height: 37px;
+    flex-shrink: 0;
+    background: #1C1B1B;
+    transition: all 1s;
+    border-radius: 10px;
+    border: none;
+cursor: pointer;
+}
+.buton button:hover{
+    background:white
+}
+.buton button h1{
+    color: #FFF;
+text-align: center;
+font-family: Nunito Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 60px; /* 428.571% */
+padding-top:-9px;
+transition: all 0.5s;
+}
+.buton button h1:hover{
+    color:black;
+}
